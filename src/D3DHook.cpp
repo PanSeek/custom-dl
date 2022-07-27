@@ -46,7 +46,7 @@ static auto Copy(const char* text, const char* copy) {
 }
 
 // main
-void __cdecl RenderMenu(void) {
+static auto RenderMenu(void) {
 	char buf_text[200];
 	strcpy_s(buf_text, pConfig.buf_text.c_str());
 
